@@ -3,273 +3,342 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio — Andrei Carosa</title>
+  <title>Andrei Carosa — Software Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- NAV -->
   <nav>
-    <a class="nav-logo" href="#">&lt; devfolio /&gt;</a>
+    <a class="nav-logo" href="#">AC</a>
     <div class="nav-links">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
+      <a href="#learning">Learning</a>
       <a href="#contact">Contact</a>
     </div>
+    <a href="mailto:andrei.carosa12@gmail.com" class="nav-cta">Hire Me</a>
   </nav>
 
   <!-- HERO -->
-  <div class="hero" style="padding-top:80px;">
-    <p class="hero-tag">// Software Developer · Laravel · React · AI Integration</p>
-    <h1>
-      <span class="line-dim">Building</span><br>
-      <span class="line-accent">Intelligent</span><br>
-      <span class="line-dim">Systems.</span>
-    </h1>
-    <p class="hero-desc">
-      Software developer with 3+ years of experience building internal business systems,
-      AI-powered tools, and full-stack web applications using Laravel, React, and modern AI APIs.
-    </p>
-    <div class="hero-cta">
-      <a href="#projects" class="btn btn-primary">View Projects</a>
-      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Open to work · Full-time &amp; Freelance
+      </div>
+      <h1>
+        Hi, I'm <span class="name-highlight">Andrei</span>.<br>
+        I build <em>web apps</em><br>
+        powered by AI.
+      </h1>
+      <p class="hero-desc">
+        Software developer focused on Laravel, React, and AI integration.
+        I create practical tools that are clean, fast, and solve real problems.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">See My Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-stack">
+        <span class="stack-label">Stack:</span>
+        <span class="stack-tag">Laravel</span>
+        <span class="stack-tag">React</span>
+        <span class="stack-tag">MySQL</span>
+        <span class="stack-tag">AI APIs</span>
+      </div>
     </div>
-    <div class="scroll-hint">
-      <div class="scroll-line"></div>
-      Scroll to explore
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-card-bar">
+          <span></span><span></span><span></span>
+        </div>
+        <pre class="code-block"><span class="c-keyword">const</span> <span class="c-var">andrei</span> = {
+  <span class="c-key">role</span>:     <span class="c-str">"Software Developer"</span>,
+  <span class="c-key">location</span>: <span class="c-str">"Calamba, Laguna 🇵🇭"</span>,
+  <span class="c-key">stack</span>:    [<span class="c-str">"Laravel"</span>, <span class="c-str">"React"</span>],
+  <span class="c-key">passion</span>:  <span class="c-str">"AI-powered tools"</span>,
+  <span class="c-key">status</span>:   <span class="c-str">"Open to work ✅"</span>,
+};</pre>
+      </div>
     </div>
-  </div>
+  </section>
 
   <!-- ABOUT -->
-  <section id="about">
-    <p class="section-label">// 01 — About</p>
-    <h2 class="section-title">Who I Am</h2>
-    <div class="about-grid">
-      <div class="about-text">
-        <p>
-          I'm Andrei Carosa, a Software Developer based in Calamba City, Laguna with 3+ years of
-          experience building and maintaining internal business systems. My core stack is
-          Laravel, JavaScript, and MySQL — with a strong focus on backend architecture,
-          system integration, and REST APIs.
-        </p>
-        <p>
-          Beyond my day-to-day work, I've been building AI-powered side projects —
-          from resume analyzers and automated meeting notes to mock interview tools —
-          using APIs like Gemini, Groq, and OpenRouter. I'm currently deepening my
-          React and TypeScript skills to grow into full-stack AI product development.
-        </p>
+  <section id="about" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">01 — About</p>
+        <h2>Who I Am</h2>
       </div>
-      <div class="skills-grid">
-        <div class="skill-chip">PHP (Laravel)</div>
-        <div class="skill-chip">JavaScript</div>
-        <div class="skill-chip">React</div>
-        <div class="skill-chip">MySQL</div>
-        <div class="skill-chip">REST API</div>
-        <div class="skill-chip">TypeScript</div>
-        <div class="skill-chip">Tailwind CSS</div>
-        <div class="skill-chip">AI APIs</div>
-        <div class="skill-chip">Git</div>
-        <div class="skill-chip">ERP Support</div>
+      <div class="about-layout">
+        <div class="about-text">
+          <p>
+            I'm a software developer from Calamba City, Laguna, with hands-on experience
+            building web applications and AI-powered tools. My core stack is
+            <strong>Laravel, JavaScript, and MySQL</strong>, with a growing focus on
+            React and TypeScript for modern frontend work.
+          </p>
+          <p>
+            I've been building AI-powered side projects — from resume analyzers and
+            automated meeting notes to mock interview tools — using APIs like
+            <strong>Gemini, Groq, and OpenRouter</strong>. These projects reflect my
+            drive to build things that are actually useful.
+          </p>
+          <p>
+            I'm looking for a role where I can grow fast, work on meaningful
+            products, and contribute from day one.
+          </p>
+          <div class="about-links">
+            <a href="https://github.com/Andrei-B-Carosa" target="_blank" class="about-link">GitHub →</a>
+            <a href="Resume - ATS.pdf" target="_blank" class="about-link">Resume →</a>
+          </div>
+        </div>
+        <div class="skills-section">
+          <p class="skills-heading">Technical Skills</p>
+          <div class="skill-group">
+            <p class="skill-group-label">Backend</p>
+            <div class="skill-list">
+              <span class="skill-pill">PHP (Laravel)</span>
+              <span class="skill-pill">REST API</span>
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">MVC Architecture</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-group-label">Frontend</p>
+            <div class="skill-list">
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">TypeScript</span>
+              <span class="skill-pill">Tailwind CSS</span>
+              <span class="skill-pill">HTML / CSS</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-group-label">Tools &amp; AI</p>
+            <div class="skill-list">
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">Gemini API</span>
+              <span class="skill-pill">OpenRouter</span>
+              <span class="skill-pill">Groq API</span>
+              <span class="skill-pill">GitHub Copilot</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects">
-    <p class="section-label">// 02 — Projects</p>
-    <h2 class="section-title">What I've Built</h2>
-    <div class="projects-grid">
-
-      <!-- Card 1 -->
-      <div class="project-card card-3">
-        <p class="project-number">Project 01</p>
-        <div class="project-icon">📄</div>
-        <h3 class="project-title">Resume Analyzer with AI</h3>
-        <p class="project-desc">
-          Upload any resume and get instant AI-powered feedback —
-          keyword matching, ATS scoring, skill gap analysis, and
-          tailored improvement suggestions.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Laravel</span>
-          <span class="tag">Gemini API</span>
-          <span class="tag">React</span>
-          <span class="tag">PDF Parsing</span>
-        </div>
-        <a href="https://github.com/Andrei-B-Carosa/Resume-Analyzer" class="project-link">View Git →</a>
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">02 — Projects</p>
+        <h2>What I've Built</h2>
+        <p class="section-sub">Personal and side projects I've developed to solve real problems.</p>
       </div>
+      <div class="projects-grid">
 
-      <!-- Card 2 -->
-      <div class="project-card card-3">
-        <p class="project-number">Project 02</p>
-        <div class="project-icon">🎙️</div>
-        <h3 class="project-title">AI Meeting Notes</h3>
-        <p class="project-desc">
-          Automatically transcribe and summarize meetings with
-          action item extraction, speaker identification, and
-          shareable markdown reports generated in seconds.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Groq API</span>
-          <span class="tag">OpenRouter API</span>
-          <span class="tag">React</span>
-          <span class="tag">Laravel API</span>
+        <div class="project-card featured">
+          <div class="project-top">
+            <div class="project-icon">📄</div>
+            <div class="project-links-row">
+              <a href="https://github.com/Andrei-B-Carosa/Resume-Analyzer" target="_blank" class="icon-link" title="View on GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Resume Analyzer with AI</h3>
+          <p class="project-desc">
+            Upload any resume and get instant AI-powered feedback — keyword matching, ATS scoring,
+            skill gap analysis, and tailored improvement suggestions.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">Gemini API</span>
+            <span class="tag">React</span>
+            <span class="tag">PDF Parsing</span>
+          </div>
         </div>
-        <a href="https://github.com/Andrei-B-Carosa/Meeting-Notes" class="project-link">View Git →</a>
-      </div>
 
-      <!-- Card 3 -->
-      <div class="project-card card-3">
-        <p class="project-number">Project 03</p>
-        <div class="project-icon">🎯</div>
-        <h3 class="project-title">AI Mock Interview</h3>
-        <p class="project-desc">
-          Practice interviews with an AI interviewer that adapts
-          questions to your role, provides real-time feedback on
-          answers, and tracks your progress over sessions.
-        </p>
-        <div class="project-tags">
-          <span class="tag">OpenRouter API</span>
-          <span class="tag">React</span>
-          <span class="tag">Laravel</span>
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🎙️</div>
+            <a href="https://github.com/Andrei-B-Carosa/Meeting-Notes" target="_blank" class="icon-link" title="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-title">AI Meeting Notes</h3>
+          <p class="project-desc">
+            Automatically transcribe and summarize meetings with action item extraction,
+            speaker identification, and shareable markdown reports.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Groq API</span>
+            <span class="tag">OpenRouter API</span>
+            <span class="tag">React</span>
+            <span class="tag">Laravel</span>
+          </div>
         </div>
-        <a href="https://github.com/Andrei-B-Carosa/AI-Mock-Interview" class="project-link">View Git →</a>
-      </div>
 
-      <!-- Card 4 -->
-      <div class="project-card card-3">
-        <p class="project-number">Project 04</p>
-        <div class="project-icon">📋</div>
-        <h3 class="project-title">Issuance Management System</h3>
-        <p class="project-desc">
-          A comprehensive tracking platform for IT assets that manages real-time status, locations, and repair history via QR code integration. 
-          It streamlines inventory accountability through automated reporting on everything from issuance to final disposal.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Laravel</span>
-          <span class="tag">JavaScript</span>
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🎯</div>
+            <a href="https://github.com/Andrei-B-Carosa/AI-Mock-Interview" target="_blank" class="icon-link" title="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-title">AI Mock Interview</h3>
+          <p class="project-desc">
+            Practice interviews with an AI interviewer that adapts questions to your role,
+            gives real-time feedback, and tracks your progress over sessions.
+          </p>
+          <div class="project-tags">
+            <span class="tag">OpenRouter API</span>
+            <span class="tag">React</span>
+            <span class="tag">Laravel</span>
+          </div>
         </div>
-        <a href="https://github.com/Andrei-B-Carosa/IMS" class="project-link">View Git →</a>
-      </div>
-      
-      <!-- Card 5 -->
-      <div class="project-card card-3">
-        <p class="project-number">Project 05 — ON GOING</p>
-        <div class="project-icon">🏢</div>
-        <h3 class="project-title">Rentflow</h3>
-        <p class="project-desc">
-          A full-stack rental property management system built with Laravel and React, enabling landlords to manage properties, tenants, 
-          leases, and payments efficiently with automated billing and real-time notifications.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Laravel</span>
-          <span class="tag">React</span>
-          <span class="tag">Tailwind</span>
-          <span class="tag">OpenRouter API</span>
-          <span class="tag">TypeScript</span>
-        </div>
-        <a href="https://github.com/Andrei-B-Carosa/RentFlow" class="project-link">View Git →</a>
-      </div>
 
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">📋</div>
+            <a href="https://github.com/Andrei-B-Carosa/IMS" target="_blank" class="icon-link" title="View on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+          <h3 class="project-title">Issuance Management System</h3>
+          <p class="project-desc">
+            IT asset tracking platform with real-time status, locations, and repair history
+            via QR code integration and automated reporting from issuance to disposal.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card ongoing">
+          <div class="project-top">
+            <div class="project-icon">🏢</div>
+            <div class="project-links-row">
+              <span class="ongoing-badge">In Progress</span>
+              <a href="https://github.com/Andrei-B-Carosa/RentFlow" target="_blank" class="icon-link" title="View on GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Rentflow</h3>
+          <p class="project-desc">
+            Full-stack rental property management system for landlords to manage properties,
+            tenants, leases, and payments — with automated billing and real-time notifications.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">React</span>
+            <span class="tag">Tailwind</span>
+            <span class="tag">OpenRouter API</span>
+            <span class="tag">TypeScript</span>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
   <!-- CURRENTLY LEARNING -->
-  <section id="learning">
-    <p class="section-label">// 03 — What I'm Currently Doing</p>
-    <h2 class="section-title">Always Growing</h2>
-    <div class="projects-grid">
-  
-      <div class="project-card card-1">
-        <p class="project-number">Learning 01</p>
-        <div class="project-icon">⚛️</div>
-        <h3 class="project-title">React</h3>
-        <p class="project-desc">
-          Deepening my understanding of component architecture,
-          hooks, and state management to build faster and more
-          scalable frontend applications.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Components</span>
-          <span class="tag">Hooks</span>
-          <span class="tag">State Management</span>
+  <section id="learning" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">03 — Growing</p>
+        <h2>What I'm Learning</h2>
+        <p class="section-sub">Technologies I'm actively studying and applying in projects right now.</p>
+      </div>
+      <div class="learning-grid">
+        <div class="learning-card">
+          <div class="learning-icon">⚛️</div>
+          <div class="learning-body">
+            <h3>React</h3>
+            <p>Deepening my understanding of component architecture, hooks, and state management for scalable frontend apps.</p>
+            <div class="project-tags">
+              <span class="tag">Components</span>
+              <span class="tag">Hooks</span>
+              <span class="tag">State Management</span>
+            </div>
+          </div>
+        </div>
+        <div class="learning-card">
+          <div class="learning-icon">🔷</div>
+          <div class="learning-body">
+            <h3>TypeScript</h3>
+            <p>Learning type safety and advanced patterns to write more reliable, self-documenting code across all my projects.</p>
+            <div class="project-tags">
+              <span class="tag">Type Safety</span>
+              <span class="tag">Interfaces</span>
+              <span class="tag">Generics</span>
+            </div>
+          </div>
+        </div>
+        <div class="learning-card">
+          <div class="learning-icon">🌊</div>
+          <div class="learning-body">
+            <h3>Tailwind CSS</h3>
+            <p>Exploring utility-first styling to design clean, responsive interfaces faster with consistent design systems.</p>
+            <div class="project-tags">
+              <span class="tag">Utility-First</span>
+              <span class="tag">Responsive</span>
+              <span class="tag">Design Systems</span>
+            </div>
+          </div>
         </div>
       </div>
-  
-      <div class="project-card card-2">
-        <p class="project-number">Learning 02</p>
-        <div class="project-icon">🔷</div>
-        <h3 class="project-title">TypeScript</h3>
-        <p class="project-desc">
-          Learning type safety and advanced TypeScript patterns
-          to write more reliable, maintainable, and self-documenting
-          code across all my projects.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Type Safety</span>
-          <span class="tag">Interfaces</span>
-          <span class="tag">Generics</span>
-        </div>
-      </div>
-  
-      <div class="project-card card-3">
-        <p class="project-number">Learning 03</p>
-        <div class="project-icon">🌊</div>
-        <h3 class="project-title">Tailwind CSS</h3>
-        <p class="project-desc">
-          Exploring utility-first styling with Tailwind to design
-          clean, responsive interfaces faster — guided by
-          Claude AI instructions and hands-on practice.
-        </p>
-        <div class="project-tags">
-          <span class="tag">Utility-First</span>
-          <span class="tag">Responsive</span>
-          <span class="tag">Claude AI</span>
-        </div>
-      </div>
-  
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section id="contact">
-    <p class="section-label">// 04 — Contact</p>
-    <div class="contact-box">
-      <h2>Open to Opportunities</h2>
-      <p>
-        I'm currently looking for full-time or freelance roles in
-        software development, AI integration, or full-stack engineering —
-        any position where I can bring intelligent solutions to real problems.
-      </p>
-  
-      <div style="display:flex; flex-direction:column; gap:1rem; max-width:420px; margin: 0 auto 2.5rem;">
-  
-        <a href="mailto:andrei.carosa12@gmail.com" class="btn btn-primary">
-          📩 &nbsp; Hire Me — andrei.carosa12@gmail.com
-        </a>
-  
-        <a href="https://github.com/Andrei-B-Carosa?tab=repositories" target="_blank" class="btn btn-ghost">
-          🐙 &nbsp; See My Work on GitHub
-        </a>
-  
-        <a href="Resume - ATS.pdf" target="_blank" class="btn btn-ghost">
-          📄 &nbsp; Download My Resume
-        </a>
-  
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <div class="contact-wrapper">
+        <div class="contact-text">
+          <p class="section-label">04 — Contact</p>
+          <h2>Let's Work Together</h2>
+          <p>
+            I'm open to full-time roles and freelance projects in software development,
+            AI integration, or full-stack engineering. I respond quickly and I'm available for remote work.
+          </p>
+          <div class="contact-detail">
+            <span class="contact-icon">📍</span>
+            <span>Calamba City, Laguna, Philippines</span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon">📞</span>
+            <span>0931-796-2955</span>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon">✉️</span>
+            <a href="mailto:andrei.carosa12@gmail.com">andrei.carosa12@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-actions">
+          <a href="mailto:andrei.carosa12@gmail.com" class="btn btn-primary btn-lg">Send Me an Email</a>
+          <a href="https://github.com/Andrei-B-Carosa?tab=repositories" target="_blank" class="btn btn-outline btn-lg">View GitHub</a>
+          <a href="Resume - ATS.pdf" target="_blank" class="btn btn-outline btn-lg">Download Resume</a>
+          <p class="availability">
+            <span class="avail-dot"></span>
+            Available for interviews · Quick to respond · Open to remote
+          </p>
+        </div>
       </div>
-  
-      <p style="font-size:0.75rem; color:var(--muted); letter-spacing:0.05em;">
-        Available for interviews &nbsp;·&nbsp; Quick to respond &nbsp;·&nbsp; Open to remote
-      </p>
-  
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    <p>Designed & Built by <span>Andrei Carosa</span> &nbsp;·&nbsp; 2025</p>
+    <p>Designed &amp; Built by <strong>Andrei Carosa</strong> · 2025</p>
+    <p class="footer-sub">Calamba City, Laguna · Open to work</p>
   </footer>
 
 </body>
